@@ -1,13 +1,24 @@
-name : cloudmining.github.io
-brand : CloudMining
-description : CloudMining site
-keyword : 
-url : https://cloudmining.github.io/
-email : info@cloudmining.one
-twitter : CloudMining
-github : CloudMining
-author : CloudMining
-year : 2017
-markdown : kramdown
-exclude :
-  - node_modules
+---
+title: Cloudmining.Github.Io
+timezone: Europe/Warsaw
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: cloudmining.github.io
+brand: CloudMining
+description: CloudMining site
+keyword: 
+url: https://cloudmining.github.io/
+email: info@cloudmining.one
+twitter: CloudMining
+github: CloudMining
+author: CloudMining
+year: 2017
+markdown: kramdown
+exclude:
+- node_modules
+theme: jekyll-theme-midnight
